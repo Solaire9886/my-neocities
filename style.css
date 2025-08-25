@@ -77,12 +77,12 @@ a {
     width: 300px;
     margin-left: 250px;
     
-    ul li{
-      list-style-position: inside;
-      padding-left: 10px;
-      margin-left: 20px;
-      text-align: left;
-      line-height: 25px
+  .interests {
+    list-style-position: inside;
+    padding-left: 10px;
+    margin-left: 60px;
+    text-align: left;
+    line-height: 25px
     }
   }
 
@@ -101,6 +101,14 @@ a {
     border-color: #d3c6aa;
     width: 300px;
     margin-right: 250px;
+
+    .socials {
+      font-size: 20px;
+      list-style: none;
+      text-align: center;
+      padding-right: 50px;
+      line-height: 50px;
+    }
   }
 }
 
